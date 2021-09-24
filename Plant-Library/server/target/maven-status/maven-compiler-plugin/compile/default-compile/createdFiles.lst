@@ -1,0 +1,5 @@
+com\landscapearchlibrary\server\ServerApplication.class
+com\landscapearchlibrary\server\model\Plant$Climates.class
+com\landscapearchlibrary\server\model\Plant.class
+com\landscapearchlibrary\server\controller\PlantController.class
+com\landscapearchlibrary\server\repository\PlantRepository.class
