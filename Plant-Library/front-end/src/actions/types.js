@@ -1,0 +1,5 @@
+export const CREATE_PLANT = "CREATE_PLANT";
+export const RETRIEVE_PLANTS = "RETRIEVE_PLANTS";
+export const UPDATE_PLANT = "UPDATE_PLANT";
+export const DELETE_PLANT = "DELETE_PLANT";
+export const DELETE_ALL_PLANTS = "DELETE_ALL_PLANTS";
