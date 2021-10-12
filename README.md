@@ -1,4 +1,4 @@
-# Landscape Architect Plant Library: Java, Spring Framework, PostgreSQL, Reactive Programming 
+# Landscape Architect Library: Java, Spring Framework, PostgreSQL, Reactive Programming 
 A prototype for an e-library which allows users to create, search, update, and delete information about plants based on the needs of Landscape Architects. The back -end is a CRUD REST service and the front-end uses reactive programming. 
 
 **Check out this prototype on heroku:** https://landscape-architect-library.herokuapp.com/
@@ -46,18 +46,6 @@ A prototype for an e-library which allows users to create, search, update, and d
 ## Testing API on Postman 
 
 This is a collection of requests tested: https://documenter.getpostman.com/view/16169448/UV5Rmfa1
-
-## Run the app on your local computer
-
-* The BE & FE have been integrated within the pom.xml: added configuration (maven-resources-plugin) so that the files from React build folder are copied to "src/target/classes/static" folder of the Spring Boot project.
-
-* Build and run the Spring Boot server with commands:
-
-  * **mvn clean install**
-  * **mvn spring-boot:run**
-  * **Open browser with url: http://localhost:8080/**
-
-  **Note:** You must have installed: Java 8 (JDK), PostgreSQL, Maven.
 
 ## Pictures of Demo
 
