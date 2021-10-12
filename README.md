@@ -7,12 +7,21 @@ A prototype for an e-library which allows users to create, search, update, and d
 
 ## Features
 
+**Completed**
+
 * Users can add a plant's profile.
 * Users can edit a plant's profile.
 * Users can publish or unpublish a plant's profile.
 * Users can search for a plant's profile.
 * Users can delete a plant's profile.
 * Users can see the list of all the existing plants.
+
+**In Progress**
+
+* Implementing authentication/authorization using Spring Security and Jason Web Token.
+* Integrating AWS S3 to store images of plants.
+* Defining requirements to source data from a third party's database.
+* Dockerizing App.
 
 ## Tech stack
 
@@ -34,26 +43,21 @@ A prototype for an e-library which allows users to create, search, update, and d
   * Axios to send HTTP Requests and retrieve HTTP Responses.
   * Bootstrap (HTML and CSS framework for templates and responsive designs)
 
-## Development In progress
-
-* Implementing authentication/authorization using Spring Security and Jason Web Token.
-* Integrating AWS S3 to store images of plants. Note: Will use both: PostgreSQL & AWS S3.
-* Defining requirements to source data from a third party's database.
-* Dockerizing App.
-
 ## Testing API on Postman 
 
 This is a collection of requests tested: https://documenter.getpostman.com/view/16169448/UV5Rmfa1
 
-## Starting the app on your local computer
+## Run the app on your local computer
 
-* The BE & FE have been integrated within the pom.xml: added configuration (used maven-resources-plugin) so the files from React build folder were copied to src/target/classes/static folder of the Spring Boot project.
+* The BE & FE have been integrated within the pom.xml: added configuration (used maven-resources-plugin); the files from React build folder were copied to src/target/classes/static folder of the Spring Boot project.
 
 * Build and run the Spring Boot server with commands:
 
-**mvn clean install**
-**mvn spring-boot:run**
-**Open browser with url: http://localhost:8080/**
+* **mvn clean install**
+* **mvn spring-boot:run**
+* **Open browser with url: http://localhost:8080/**
 
-**Note:** You must have installed in your local computer: 
-Java 8 (JDK), PostgreSQL, Maven.
+**Note:** You must have installed: Java 8 (JDK), PostgreSQL, Maven.
+
+## Pictures of Demo
+
