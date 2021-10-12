@@ -49,15 +49,15 @@ This is a collection of requests tested: https://documenter.getpostman.com/view/
 
 ## Run the app on your local computer
 
-* The BE & FE have been integrated within the pom.xml: added configuration (used maven-resources-plugin); the files from React build folder were copied to src/target/classes/static folder of the Spring Boot project.
+* The BE & FE have been integrated within the pom.xml: added configuration (maven-resources-plugin) so that the files from React build folder are copied to "src/target/classes/static" folder of the Spring Boot project.
 
 * Build and run the Spring Boot server with commands:
 
-* **mvn clean install**
-* **mvn spring-boot:run**
-* **Open browser with url: http://localhost:8080/**
+  * **mvn clean install**
+  * **mvn spring-boot:run**
+  * **Open browser with url: http://localhost:8080/**
 
-**Note:** You must have installed: Java 8 (JDK), PostgreSQL, Maven.
+  **Note:** You must have installed: Java 8 (JDK), PostgreSQL, Maven.
 
 ## Pictures of Demo
 
