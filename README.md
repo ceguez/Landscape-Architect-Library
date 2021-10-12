@@ -1,4 +1,4 @@
-# Landscape Architect Plant Library: Java, Spring Framework, PosgreSQL, Reactive Programming 
+# Landscape Architect Plant Library: Java, Spring Framework, PostgreSQL, Reactive Programming 
 A prototype for an e-library which allows users to create, search, update, and delete information about plants based on the needs of Landscape Architects. The back -end is a CRUD REST service and the front-end uses reactive programming. 
 
 **Check out this prototype on heroku:** https://landscape-architect-library.herokuapp.com/
@@ -10,7 +10,7 @@ A prototype for an e-library which allows users to create, search, update, and d
 * Users can add a plant's profile.
 * Users can edit a plant's profile.
 * Users can publish or unpublish a plant's profile.
-* USers can search for a plant's profile.
+* Users can search for a plant's profile.
 * Users can delete a plant's profile.
 * Users can see the list of all the existing plants.
 
@@ -36,10 +36,10 @@ A prototype for an e-library which allows users to create, search, update, and d
 
 ## Development In progress
 
-* Implement authentication/authorization using Spring Security and Jason Web Token.
+* Implementing authentication/authorization using Spring Security and Jason Web Token.
 * Integrating AWS S3 to store images of plants. Note: Will use both: PostgreSQL & AWS S3.
 * Defining requirements to source data from a third party's database.
-* **Dockerizing App.**
+* Dockerizing App.
 
 ## Testing API on Postman 
 
@@ -47,13 +47,13 @@ This is a collection of requests tested: https://documenter.getpostman.com/view/
 
 ## Starting the app on your local computer
 
-* The BE & FE have been integrated through the pom.xml: added configuration (used maven-resources-plugin) so the files from React build folder were copied to src/target/classes/static folder of Spring Boot project.
+* The BE & FE have been integrated within the pom.xml: added configuration (used maven-resources-plugin) so the files from React build folder were copied to src/target/classes/static folder of the Spring Boot project.
 
 * Build and run the Spring Boot server with commands:
 
-– mvn clean install
-– mvn spring-boot:run
-- Open browser with url: http://localhost:8080/
+**mvn clean install**
+**mvn spring-boot:run**
+**Open browser with url: http://localhost:8080/**
 
 **Note:** You must have installed in your local computer: 
-          * Java 8, PostgreSQL, Maven.
+Java 8 (JDK), PostgreSQL, Maven.
