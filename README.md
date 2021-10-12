@@ -18,7 +18,7 @@ A prototype for an e-library which allows users to create, search, update, and d
 
 **In Progress**
 
-* Implementing authentication/authorization using Spring Security and Jason Web Token.
+* Implementing authentication/authorization using Spring Security and JWT (Json Web Token).
 * Integrating AWS S3 to store images of plants.
 * Defining requirements to source data from a third party's database.
 * Dockerizing App.
