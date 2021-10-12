@@ -49,3 +49,26 @@ This is a collection of requests tested: https://documenter.getpostman.com/view/
 
 ## Pictures of Demo
 
+>Demo 1
+![Demo1](Demo1.JPG)
+
+>Demo 2
+![Demo2](Demo2.JPG)
+
+>Demo 3
+![Demo3](Demo3.JPG)
+
+>Demo 4
+![Demo4](Demo4.JPG)
+
+>Demo 5
+![Demo5](Demo5.JPG)
+
+>Demo 6
+![Demo6](Demo7.JPG)
+
+>Demo 7
+![Demo7](POST-Testing-Pic4.JPG)
+
+>Demo 8
+![Demo8](POST-Testing-Pic5.JPG)
