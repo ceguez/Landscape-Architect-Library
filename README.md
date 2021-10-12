@@ -47,7 +47,7 @@ A prototype for an e-library which allows users to create, search, update, and d
 
 This is a collection of requests tested: https://documenter.getpostman.com/view/16169448/UV5Rmfa1
 
-## Pictures of Demo
+## Demo Pictures
 
 >Demo 1
 ![Demo1](Demo1.JPG)
