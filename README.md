@@ -1,4 +1,4 @@
-# Landscape Architect Library: Java, Spring Framework, PostgreSQL, Reactive Programming 
+# Landscape Architect's Library: Java, Spring Framework, PostgreSQL, Reactive Programming 
 A prototype for an e-library which allows users to create, search, update, and delete information about plants based on the needs of Landscape Architects. The back -end is a CRUD REST service and the front-end uses reactive programming. 
 
 **Check out this prototype on heroku:** https://landscape-architect-library.herokuapp.com/
